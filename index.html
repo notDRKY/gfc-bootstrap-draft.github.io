@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--CSS BOOTSTRAP ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Gold Fitness Center</title>
+    <link rel="icon" href="./media/icon/dribbble-yellow.svg" />
+  </head>
+  <body>
+    <!--NAVBAR START-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-warning fs-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-dribbble"></i> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-2">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-house-fill"></i>
+                Inicio</a
+              >
+            </li>
+            <li class="nav-item ms-2">
+              <a class="nav-link" href="#">
+                <i class="bi bi-calendar-fill"></i>
+                Horario</a
+              >
+            </li>
+            <li class="nav-item dropdown ms-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-book-fill"></i>
+                Clases
+              </a>
+              <ul class="dropdown-menu fs-5">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-bookmark-fill"></i>
+                    Reservas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-clipboard-fill"></i>
+                    Entrenamientos personalizados</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-star-fill"></i>
+                    Opiniones</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="bi bi-info-circle-fill"></i>
+                    Sobre nosotros...</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="ms-auto">
+            <a href="https://www.lesmills.com/" target="_blank">
+              <img class="img-fluid" style="max-width: 240px;" src="./media/les-mills-black-logo.png" alt="LesMills Logo"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--HEROE 1 START-->
+    <div class="px-4 pt-5 my-5 text-center">
+      <h1 class="display-4 fw-bold">Gold Fitness Center</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Bienvenidos a Gold Fitness Center, donde la salud y el bienestar son
+          nuestra prioridad. Ofrecemos una amplia variedad de clases dirigidas y
+          zonas de entrenamiento para satisfacer las necesidades de todos
+          nuestros miembros. Con un equipo de instructores altamente capacitados
+          y un ambiente motivador, estamos comprometidos a ayudarte a alcanzar
+          tus objetivos de fitness. ¡Visítanos hoy y descubre por qué somos la
+          mejor opción para tu bienestar!
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button
+            type="button"
+            class="btn btn-warning btn-lg px-4 me-sm-3 text-uppercase"
+          >
+            Hazte socio
+          </button>
+          <button type="button" class="btn btn-dark btn-lg px-4 text-uppercase">
+            Inicia sesión
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 90vh">
+        <div class="container px-3">
+          <img
+            src="./media/gym-background.jpg"
+            class="img-fluid rounded-3 shadow-sm"
+            alt="GFC image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+    <!--HEROE 1 END-->
+
+    <!--CAROUSEL START-->
+    <div class="container">
+      <h3 class="display-4 fw-bold lh-1 mb-3">
+        <i class="bi bi-rocket-takeoff-fill"></i>
+        Actividades dirigidas
+      </h3>
+      <hr class="border border-warning border-2 opacity-75" />
+      <div class="px-4 pt-5 pb-5 mx-auto my-5 text-center align-items-center">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active rounded-3">
+              <img
+                src="./media/carousel/carr_target1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-warning rounded-5 bg-opacity-75"
+              >
+                <h4 class="text-uppercase text-dark fw-bold">Bodypump</h4>
+              </div>
+            </div>
+            <div class="carousel-item rounded-3">
+              <img
+                src="./media/carousel/carr_target2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-danger rounded-5 bg-opacity-75"
+              >
+                <h4 class="text-uppercase text-light fw-bold">Trx/Core</h4>
+              </div>
+            </div>
+            <div class="carousel-item rounded-3">
+              <img
+                src="./media/carousel/carr_target3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-light rounded-5 bg-opacity-75"
+              >
+                <h4 class="text-uppercase text-dark fw-bold">Bodybalance</h4>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--CAROUSEL END-->
+    </div>
+
+    <!--HEROE 2 START-->
+    <div class="container py-5">
+      <div class="row g-lg-5 py-5">
+        <div class="col align-baseline">
+          <h3 class="display-4 fw-bold lh-1 mb-3">
+            <i class="bi bi-geo-alt-fill"></i>
+            ¿Dónde encontrarnos?
+          </h3>
+          <hr class="border border-warning border-2 opacity-75" />
+          <ul class="col-lg-10 fs-4 list-group-flush">
+            <li class="list-group-item">C/ Rigoberta Menchú</li>
+            <li class="list-group-item">Carlet 46240, Valencia</li>
+          </ul>
+        </div>
+        <div class="row col-md-10 col-lg-5 align-content-center mx-auto">
+          <iframe
+            class="mx-auto embed-responsive-item rounded-5"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15353.392295185995!2d-0.5296333516250827!3d39.22446142650547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61aeb706c02333%3A0xcd0c81f78669b2ca!2sGold%20Fitness%20Center!5e0!3m2!1ses!2ses!4v1675701756307!5m2!1ses!2ses"
+            width="700"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!--HEROE 2 END-->
+
+    <!--CARDS START-->
+    <div class="container">
+      <h3 class="display-4 fw-bold lh-1 mb-3">
+        <i class="bi bi-mortarboard-fill"></i>
+        Nuestros instructores
+      </h3>
+      <hr class="border border-warning border-2 opacity-75" />
+      <div class="card-group px-4 pt-5 pb-5 my-5 align-items-sm-start">
+        <!--CARD 1-->
+        <div class="card h-100 border-0">
+          <div class="row g-3">
+            <div class="col">
+              <img
+                src="./media/cards/andrea.jpg"
+                class="img-fluid rounded-circle px-1"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Andrea Martínez</h5>
+                <p class="card-text">
+                  Andrea Martínez está dispuesta a ayudar a los socios a lograr
+                  sus objetivos de fitness. Está preparada para guiarles y
+                  brindar una experiencia de entrenamiento segura y efectiva.
+                  Ofrece una amplia gama de clases, desde yoga, entrenamiento de
+                  fuerza.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD 2-->
+        <div class="card h-100 border-0">
+          <div class="row g-3">
+            <div class="col">
+              <img
+                src="./media/cards/sofia.jpg"
+                class="img-fluid rounded-circle px-1"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sofía Baquero</h5>
+                <p class="card-text">
+                  Sofía Baquero es apasionada por el fitness y ayudar a los
+                  socios a alcanzar sus metas de salud. Durante sus sesiones, se
+                  combina música motivadora con una rutina de cardio que lleva a
+                  los socios en un viaje en bicicleta por las montañas, llanuras
+                  y caminos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD 3-->
+        <div class="card h-100 border-0">
+          <div class="row g-3">
+            <div class="col">
+              <img
+                src="./media/cards/sergio.jpg"
+                class="img-fluid rounded-circle px-1"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sergio García</h5>
+                <p class="card-text">
+                  Sergio García es un profesional con años de experiencia. Su
+                  pasión es ayudar a los socios a alcanzar sus metas de fitness
+                  de una manera segura y efectiva. Durante sus sesiones, se
+                  puede esperar una quema de calorías y un gran impulso de
+                  energía.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CARDS END-->
+
+    <!--FOOTER START-->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top"
+    >
+      <p class="col-md-4 mb-0 ps-3">© 2022 Gold Fitness Center</p>
+
+      <a
+        href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark"
+      >
+        <h4><i class="bi bi-dribbble"></i></h4>
+      </a>
+
+      <ul class="nav col-md-4 pe-3 justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-black"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-black"
+            ><i class="bi bi-facebook"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-black"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-black"
+            ><i class="bi bi-discord"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!--FOOTER END-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
